@@ -37,6 +37,7 @@ app.use(function(err, request, response, next) {
     response.end('<html><body><h2>Server error!</h2></body></html>');
 });
 
+// listen on 3000
 http.createServer(app).listen(3000);
 
 
