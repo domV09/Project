@@ -1,0 +1,26 @@
+<!-- Product Name -->
+<h2>{{movie.name}}</h2>
+
+<!-- Image of Product -->
+<div>
+    <img style="height: 300px; width: auto; padding-bottom: 20px;" src="images/{{movie.image}}">
+</div>
+
+<!-- Properties -->
+<div>
+    <table>
+        <tr>
+            <th style="border: 1px solid black;">ID</th>
+            <td style="border: 1px solid black;">{{movie.id}}</td>
+        </tr>
+        <tr>
+            <th style="border: 1px solid black;">Description</th>
+            <td style="border: 1px solid black;">{{movie.description}}</td>
+        </tr>
+        <tr>
+            <th style="border: 1px solid black;">Price</th>
+            <td style="border: 1px solid black;">${{movie.price}}</td>
+        </tr>
+        
+    </table>
+</div>
